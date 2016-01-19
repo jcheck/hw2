@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>David Bowie</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  </head>
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HW #2</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
+  <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+ </head>
 
 <body>
-    <nav class="navbar navbar-default">
+ <nav class="navbar navbar-default">
   <div class="container-fluid">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -17,67 +21,46 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="http://www.davidbowie.com/"target="blank">David Bowie</a>
+    <a class="navbar-brand" href=""target="blank aria-label="Left Align">Golf Resources</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-      <li><a href="#">Link</a></li>
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+         <button type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> Links
+         </button>
+        <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
+          <li><a href="http://www.golfdigest.com/"target="blank">Golf Digest</a></li>
+          <li><a href="http://www.golfwrx.com/"target="blank">Golf WRX</a></li>
+          <li><a href="http://www.golf.com/"target="blank">Golf Magazine</a></li>
           <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
+          <li><a href="http://www.cdga.org/"target="blank">Chicago District Golf Association</a></li>
           <li role="separator" class="divider"></li>
-          <li><a href="#">One more separated link</a></li>
+          <li><a href="http://www.pgatour.com/"target="blank">PGA Tour</a></li>
         </ul>
       </li>
     </ul>
-    <form class="navbar-form navbar-left" role="search">
+    <form class="navbar-form navbar-right" role="search">
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Search">
       </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Link</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-        </ul>
+
       </li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
 </nav>
 
+<!-- Header Section -->
 <div class="page-header">
-  <h1>This is my header <small>Subtext for header</small></h1>
+  <h1>Golf Resources to Improve Your Game <small>Subtext for header</small></h1>
 </div>
-
-   <div class="container-fluid">
-     <div class="row">
-
-      <div class="col-md-6 col-xs-3">
-        <p>This is the main section of the page...</p>
-      </div>
-
-      <div class="col-md-6 col-xs-3">
-        <p>This is the sidebar.</p>
-      </div>
-
-    </div>
-   </div>
 
    <div class="container-fluid">
      <div class="row">
@@ -135,6 +118,37 @@
       <li>Sold 140 million records, <em>School of Rock, 1969</em></li>
       <li>Awarded 9 Platinum album certifications, <em>College of Rock, 1975</em></li>
     </ul>
+
+    <!-- Footer Section -->
+       <div class="container-fluid">
+         <div class="row">
+
+          <div class="col-md-6 col-xs-3">
+            <p>This is the footer section of the page...</p>
+          </div>
+
+          <div class="col-md-6 col-xs-3">
+            <p>This is the footer sidebar.</p>
+          </div>
+
+        </div>
+       </div>
+
+       <h2>Dropdown Example</h2>
+         <p>The data-toggle="dropdown" attribute is used to open the dropdown menu.</p>
+         <div class="dropdown">
+           <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Dropdown Example
+           <span class="caret"></span></button>
+           <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+             <li role="presentation" class="divider"></li>
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+           </ul>
+         </div>
+       </div>
+
 
 
   </body>
